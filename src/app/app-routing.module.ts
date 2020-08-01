@@ -8,12 +8,13 @@ import { PictureComponent } from './picture/picture.component';
 import { UsefulInfoComponent } from './useful-info/useful-info.component';
 
 const routes: Routes = [
-  { path: 'about', component: AboutComponent},
-  { path: 'event', component: EventComponent},
-  { path: 'home', component: HomeComponent},
-  { path: 'picture', component: PictureComponent},
-  { path: 'info', component: UsefulInfoComponent},
-  { path: '', component: HomeComponent, outlet: "hometest"},
+  { path: 'about', component: AboutComponent },
+  { path: 'event', component: EventComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'picture', component: PictureComponent },
+  { path: 'info', component: UsefulInfoComponent },
+  { path: '', redirectTo: '/home' },
+  { path: '**', redirectTo: '/home' },
 
 ];
 
