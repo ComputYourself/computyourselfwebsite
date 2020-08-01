@@ -10,12 +10,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'event', component: EventComponent },
   { path: 'home', component: HomeComponent },
   { path: 'picture', component: PictureComponent },
   { path: 'info', component: UsefulInfoComponent },
-  { path: '', redirectTo: '/home' },
   { path: '**', redirectTo: '/home' },
 
 ];
