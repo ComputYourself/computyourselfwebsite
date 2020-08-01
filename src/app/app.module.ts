@@ -10,6 +10,7 @@ import { PictureComponent } from './picture/picture.component';
 import { UsefulInfoComponent } from './useful-info/useful-info.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { CEstPasFauxComponent } from './c-est-pas-faux/c-est-pas-faux.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     PictureComponent,
     UsefulInfoComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    CEstPasFauxComponent
   ],
   imports: [
     BrowserModule,

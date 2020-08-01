@@ -8,6 +8,7 @@ import { PictureComponent } from './picture/picture.component';
 import { UsefulInfoComponent } from './useful-info/useful-info.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { CEstPasFauxComponent } from './c-est-pas-faux/c-est-pas-faux.component'
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'picture', component: PictureComponent },
   { path: 'info', component: UsefulInfoComponent },
-  { path: '**', redirectTo: '/home' },
+  { path: '42', component: CEstPasFauxComponent },
+  { path: '**', redirectTo: '/42' },
 
 ];
 
