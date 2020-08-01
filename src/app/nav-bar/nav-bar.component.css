@@ -1,0 +1,171 @@
+/* ========================================= */
+/* ================ Toolbar ================ */
+/* ========================================= */
+
+
+.header-top {
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  box-sizing: border-box;
+  display: block;
+  float: none;
+  line-height: 24px;
+}
+
+.haut_padding {
+  display: block;
+  width: 100%;
+  backface-visibility: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+
+.section_logo {
+  min-height: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  flex-basis: 100%;
+  max-width: none;
+  max-height: none;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.section_logo, .section_menu {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section_menu {
+  justify-content: flex-end;
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+.urobase_logo {
+  width: auto;
+  max-height: 80px !important;
+  vertical-align: middle;
+  opacity: 1;
+  transition: opacity .3s;
+  max-width: 100%;
+  height: auto;
+}
+
+.section_menu {
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.menu_container {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+ul.botton_line {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: static;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+ul.botton_line li {
+    display: block;
+    position: relative;
+    color: #fff;
+    transition: all .4s;
+    overflow: hidden;
+    padding: .85rem;
+}
+
+ul.botton_line {
+    border-bottom: 3px solid #03a9f4;
+}
+
+ul.botton_line > li > a {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+ul.botton_line li a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: inherit;
+    position: relative;
+}
+
+.menu_container_V2 { 
+  display: none;
+}
+
+/*
+@media only screen and (max-device-width:980px){
+  .section_logo {
+    min-height: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: left;
+    flex-basis: auto;
+    max-width: 80%;
+  }
+
+  .menu_container {
+    display: none;
+  }
+
+  .menu_container_V2 {
+    display: contents;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-basis: auto;
+    flex-grow: 0;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+
+}
+*/

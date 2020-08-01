@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'comput-yourself-V42';
+  toggoleShowHide:string ="visible";
 }

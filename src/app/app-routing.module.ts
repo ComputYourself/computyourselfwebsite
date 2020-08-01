@@ -6,6 +6,8 @@ import { EventComponent } from './event/event.component';
 import { HomeComponent } from './home/home.component';
 import { PictureComponent } from './picture/picture.component';
 import { UsefulInfoComponent } from './useful-info/useful-info.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
