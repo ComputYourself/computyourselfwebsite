@@ -5,10 +5,10 @@
     "\\e2e\\src",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\event",
-    "\\src\\app\\home",
+    "\\src\\app\\c-est-pas-faux",
+    "\\src\\app\\useful-info",
     "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\app.component.ts",
+  "SelectedNode": "\\src\\app\\useful-info\\useful-info.component.css",
   "PreviewInSolutionExplorer": false
 }
