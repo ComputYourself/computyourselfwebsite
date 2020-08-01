@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'picture', component: PictureComponent},
   { path: 'info', component: UsefulInfoComponent},
   { path: '', component: HomeComponent, outlet: "hometest"},
+  //{ path: '**', redirectTo: 'home'}
 
 ];
 
