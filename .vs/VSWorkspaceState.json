@@ -5,10 +5,10 @@
     "\\e2e\\src",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\c-est-pas-faux",
+    "\\src\\app\\nav-bar",
     "\\src\\app\\useful-info",
     "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\useful-info\\useful-info.component.css",
+  "SelectedNode": "\\src\\app\\nav-bar\\nav-bar.component.css",
   "PreviewInSolutionExplorer": false
 }
