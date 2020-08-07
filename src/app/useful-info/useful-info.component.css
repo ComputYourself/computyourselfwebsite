@@ -114,3 +114,8 @@ input[type=submit]:hover {
     padding-right: 0px;
   }
 }
+
+
+.mail, .fb, .horaires {
+  font-size: 20px;
+}
