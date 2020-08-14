@@ -19,8 +19,12 @@
 
 
 
-.OpenGif {
+.OpenGif{
   max-height: 42px !important
+}
+
+.logofb {
+  max-height: 80px !important
 }
 
 

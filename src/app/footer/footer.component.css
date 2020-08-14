@@ -84,6 +84,16 @@
   margin-bottom: 0px;
 }
 
+.open_close {
+  width: auto;
+  max-height: 40px !important;
+  vertical-align: middle;
+  opacity: 1;
+  transition: opacity .3s;
+  max-width: 100%;
+  height: auto;
+}
+
 .copyright {
   padding-left: 1rem;
   padding-right: 1rem;
