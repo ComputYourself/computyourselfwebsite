@@ -63,16 +63,7 @@
   height: auto;
 }
 
-.open_close {
-  padding-left:100px;
-  width: auto;
-  max-height: 40px !important;
-  vertical-align: middle;
-  opacity: 1;
-  transition: opacity .3s;
-  max-width: 100%;
-  height: auto;
-}
+
 
 .section_menu {
   justify-content: center;
