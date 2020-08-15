@@ -1,3 +1,11 @@
+.OpenGif{
+  max-height: 42px !important
+}
+
+.logofb, .email2 {
+  max-height: 80px !important
+}
+
 * {
   box-sizing: border-box;
 }
