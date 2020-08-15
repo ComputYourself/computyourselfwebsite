@@ -2,15 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\about",
-    "\\src\\app\\c-est-pas-faux",
-    "\\src\\app\\event",
-    "\\src\\app\\footer",
-    "\\src\\app\\home",
-    "\\src\\app\\picture",
-    "\\src\\environments"
+    "\\src\\app"
   ],
-  "SelectedNode": "\\src\\app\\useful-info\\useful-info.component.css",
+  "SelectedNode": "\\src\\app\\about",
   "PreviewInSolutionExplorer": false
 }
