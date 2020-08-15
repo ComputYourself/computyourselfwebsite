@@ -21,12 +21,11 @@ const routes: Routes = [
   { path: '42', component: CEstPasFauxComponent },
   { path: '#', redirectTo: '/42' },
   { path: '**', redirectTo: '/42' },
-
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule],
-
 })
+
 export class AppRoutingModule { }
