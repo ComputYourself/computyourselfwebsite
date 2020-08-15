@@ -123,3 +123,7 @@ input[type=submit]:hover {
 .mail, .fb, .horaires {
   font-size: 20px;
 }
+.mail {
+  font-family: "MyFont";
+  color: #00ff00;
+}

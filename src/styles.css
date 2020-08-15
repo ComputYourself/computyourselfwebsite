@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   /*color: #8E9DAE;*/
   color: white;
   text-align: center;
@@ -27,4 +27,9 @@ body{
   word-wrap: break-word;
 
   }
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url('assets/GiantRobotArmy-Medium.ttf');
 }
