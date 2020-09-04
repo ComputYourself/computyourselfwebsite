@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app"
+    "\\src\\app",
+    "\\src\\app\\footer",
+    "\\src\\app\\home",
+    "\\src\\app\\useful-info"
   ],
-  "SelectedNode": "\\src\\app\\about",
+  "SelectedNode": "\\src\\app\\footer\\footer.component.css",
   "PreviewInSolutionExplorer": false
 }
