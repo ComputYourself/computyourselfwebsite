@@ -13,11 +13,19 @@
   font-size: 3.8em;
   padding-top: 4%;
   color: #00ff00;
+  font-family: "MyFont";
 }
 
 .logo{
   max-height: 300px !important;
 }
+
+.texte {
+  font-size: 1.8em;
+  line-height: 1.7rem;
+  font-family: "Space Mono","Courier New",Courier;
+}
+
 
 @media only screen and (max-device-width:1380px){
   .logo{
