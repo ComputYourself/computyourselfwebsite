@@ -122,9 +122,8 @@ ul.botton_line {
 ul.botton_line > li > a {
     font-weight: 600;
     font-style: normal;
-    font-size: 14px;
-    line-height: 160%;
-    letter-spacing: 1px;
+    font-size: 18px;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 

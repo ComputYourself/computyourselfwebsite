@@ -1,9 +1,48 @@
-.construction{
-  max-height: 300px !important
+.titre-futur {
+  font-size: 2.8em;
+  padding-top: 1%;
+}
+
+.texte-futur {
+  font-size: 3.8em;
+  color: #00ff00;
+  line-height: 3.5rem;
+  animation: Test 1.5s infinite;
+}
+
+.titre-passe {
+  font-size: 2.8em;
+  padding-top: 1%;
+}
+
+.titre {
+   font-size: 1.8em;
+}
+
+.affiche-Lan-O-Ween {
+  max-height: 1000px !important
+}
+
+.underover {
+  text-decoration: dashed underline overline;
+  line-height: 3.4rem;
+}
+
+@keyframes Test{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 @media only screen and (max-device-width:1180px){
-  .construction{
-    max-height: 80px !important
+  .affiche-Lan-O-Ween{
+    max-height: 500px !important
   }
+  .affiche-semaine-animation-2019 {
+    max-height: 300px !important
+  }
+  .texte-futur {
+  font-size: 1.8em;
+  line-height: 2.0rem;
+}
 }

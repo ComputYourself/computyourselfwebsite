@@ -3,10 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\about",
+    "\\src\\app\\event",
     "\\src\\app\\footer",
     "\\src\\app\\home",
+    "\\src\\app\\nav-bar",
+    "\\src\\app\\picture",
     "\\src\\app\\useful-info"
   ],
-  "SelectedNode": "\\src\\app\\footer\\footer.component.css",
+  "SelectedNode": "\\src\\app\\picture\\picture.component.html",
   "PreviewInSolutionExplorer": false
 }
