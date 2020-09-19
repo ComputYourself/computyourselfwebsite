@@ -1,9 +1,9 @@
-.construction{
+.construction {
   max-height: 300px !important
 }
 
-@media only screen and (max-device-width:1180px){
-  .construction{
+@media only screen and (max-device-width:1180px) {
+  .construction {
     max-height: 80px !important
   }
 }

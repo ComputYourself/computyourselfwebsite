@@ -1,4 +1,4 @@
-.OpenGif{
+.OpenGif {
   max-height: 42px !important
 }
 
@@ -48,13 +48,16 @@
   .column1 {
     display: none;
   }
+
   .column2 {
     display: block;
   }
+
   .bradress {
     display: none;
   }
-  .OpenGif{
+
+  .OpenGif {
     max-height: 32px !important
   }
 }
@@ -63,6 +66,7 @@
 .mail, .fb, .horaires {
   font-size: 20px;
 }
+
 .mail {
   font-family: "MyFont";
   color: #00ff00;

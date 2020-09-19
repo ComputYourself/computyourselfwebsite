@@ -3,18 +3,17 @@
 
 
 
-.error_Phone { 
+.error_Phone {
   display: none;
 }
 
-@media only screen and (max-device-width:980px){
+@media only screen and (max-device-width:980px) {
 
   .error_Phone {
     display: contents;
   }
 
-  .error_PC { 
+  .error_PC {
     display: none;
   }
-
 }

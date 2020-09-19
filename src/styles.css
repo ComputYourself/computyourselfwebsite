@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+body {
   /*font-family: "Open Sans", sans-serif;*/
   /*font-family: "MyFont";*/
   font-family: "Space Mono","Courier New",Courier;
@@ -8,28 +8,24 @@ body{
   text-align: center;
   font-size: 18px;
   line-height: 1.5rem;
-
   background-image: linear-gradient(to bottom, rgba(0,100,0,0.3), rgba(0,0,100,0.5)), url("./assets/back.jpg");
   background-size: 100%;
   word-wrap: break-word;
-
 }
 
-@media only screen and (max-device-width:980px){
-  body{
-   /*font-family: "Open Sans", sans-serif;*/
-  /*font-family: "MyFont";*/
-  font-family: "Space Mono","Courier New",Courier;
-  /*color: #8E9DAE;*/
-  color: white;
-  text-align: center;
-  font-size: 18px;
-  line-height: 2rem;
-
-  background-image: linear-gradient(to bottom, rgba(0,100,0,0.3), rgba(0,0,100,0.5)), url("./assets/back.jpg");
-  background-size: 100%;
-  word-wrap: break-word;
-
+@media only screen and (max-device-width:980px) {
+  body {
+    /*font-family: "Open Sans", sans-serif;*/
+    /*font-family: "MyFont";*/
+    font-family: "Space Mono","Courier New",Courier;
+    /*color: #8E9DAE;*/
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2rem;
+    background-image: linear-gradient(to bottom, rgba(0,100,0,0.3), rgba(0,0,100,0.5)), url("./assets/back.jpg");
+    background-size: 100%;
+    word-wrap: break-word;
   }
 }
 

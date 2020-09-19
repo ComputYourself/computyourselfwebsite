@@ -9,7 +9,7 @@
   line-height: 3.5rem;
 }
 
-.logo{
+.logo {
   max-height: 300px !important;
 }
 
@@ -19,17 +19,104 @@
   font-family: "Space Mono","Courier New",Courier;
 }
 
+.content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: left;
+  box-sizing: border-box;
+}
 
-@media only screen and (max-device-width:1380px){
-  .logo{
+.gridcontent {
+  width: 90%;
+  max-width: 1232px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.contentcenter {
+  -webkit-box-pack: center;
+  margin-bottom: -30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  flex: 0 1 auto;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  -webkit-box-orient: horizontal;
+  box-sizing: border-box;
+}
+
+.item {
+  margin-bottom: 30px;
+  padding: 2rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 33.33333%;
+  max-width: 33.33333%;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+}
+
+
+@media only screen and (max-device-width:1380px) {
+  .logo {
     max-height: 75px !important
   }
+
   .texte-titre {
-    font-size: 2.8rem;;
+    font-size: 2.8rem;
+    ;
   }
 
-  .texte {
+  .texte, .texte2 {
     font-size: .8em;
     line-height: .9rem;
+  }
+
+  .content {
+    padding-bottom: 48px;
+    padding-top: 48px;
+    text-align: center;
+  }
+
+  .gridcontent {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+
+  .contentcenter {
+    -webkit-box-orient: horizontal;
+    display: flex;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    flex: 0 1 auto;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -30px;
+  }
+
+  .item {
+    margin-bottom: 30px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }

@@ -16,10 +16,10 @@
 }
 
 .titre {
-   font-size: 1.8em;
+  font-size: 1.8em;
 }
 
-.affiche-Lan-O-Ween, .affiche-semaine-animation-2019{
+.affiche-Lan-O-Ween, .affiche-semaine-animation-2019 {
   max-height: 1000px !important
 }
 
@@ -28,14 +28,22 @@
   line-height: 3.4rem;
 }
 
-@keyframes Test{
-    0%{opacity: 1;}
-    50%{opacity: 0;}
-    100%{opacity: 1;}
+@keyframes Test {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
-@media only screen and (max-device-width:1180px){
-  .affiche-Lan-O-Ween, .affiche-semaine-animation-2019{
+@media only screen and (max-device-width:1180px) {
+  .affiche-Lan-O-Ween, .affiche-semaine-animation-2019 {
     max-height: 500px !important
   }
 
