@@ -2,8 +2,12 @@
   max-height: 42px !important
 }
 
-.logofb, .email2 {
+.logo, .email2 {
   max-height: 80px !important
+}
+
+.logo {
+  margin-left: 50px;
 }
 
 * {

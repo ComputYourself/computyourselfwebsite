@@ -19,7 +19,7 @@
   font-size: 1.8em;
 }
 
-.affiche-Lan-O-Ween, .affiche-semaine-animation-2019 {
+.affiche-Lan-O-Ween-2019, .affiche-semaine-animation-2019, .affiche-semaine-animation-2020, .affiche-semaine-animation-2-2020 {
   max-height: 1000px !important
 }
 
@@ -43,7 +43,7 @@
 }
 
 @media only screen and (max-device-width:1180px) {
-  .affiche-Lan-O-Ween, .affiche-semaine-animation-2019 {
+  .affiche-Lan-O-Ween-2019, .affiche-semaine-animation-2019, .affiche-semaine-animation-2020, .affiche-semaine-animation-2-2020 {
     max-height: 500px !important
   }
 
