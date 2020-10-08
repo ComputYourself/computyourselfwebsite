@@ -3,7 +3,7 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\c-est-pas-faux",
+    "\\src\\app\\about",
     "\\src\\app\\event",
     "\\src\\app\\footer",
     "\\src\\app\\home",
@@ -11,6 +11,6 @@
     "\\src\\app\\picture",
     "\\src\\app\\useful-info"
   ],
-  "SelectedNode": "\\src\\app\\nav-bar\\nav-bar.component.html",
+  "SelectedNode": "\\src\\app\\about\\about.component.html",
   "PreviewInSolutionExplorer": false
 }
