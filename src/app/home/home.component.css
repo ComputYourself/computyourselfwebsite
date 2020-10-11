@@ -64,6 +64,17 @@
   -webkit-box-flex: 0;
 }
 
+.itemV2 {
+  margin-bottom: 30px;
+  padding: 2rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 70%;
+  max-width: 70%;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+}
+
 
 @media only screen and (max-device-width:1380px) {
   .logo {
