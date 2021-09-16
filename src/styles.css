@@ -8,7 +8,7 @@ body {
   text-align: center;
   font-size: 18px;
   line-height: 1.5rem;
-  background-image: linear-gradient(to bottom, rgba(0,100,0,0.3), rgba(0,0,100,0.5)), url("./assets/back.jpg");
+  background-image: linear-gradient(to bottom, rgba(0,100,0,0.3), rgba(0,0,100,0.5)), url("./assets/back-2.png");
   background-size: 100%;
   word-wrap: break-word;
 }
@@ -23,7 +23,7 @@ body {
     text-align: center;
     font-size: 18px;
     line-height: 2rem;
-    background-image: linear-gradient(to bottom, rgba(0,100,0,0.3), rgba(0,0,100,0.5)), url("./assets/back.jpg");
+    background-image: linear-gradient(to bottom, rgba(0,100,0,0.3), rgba(0,0,100,0.5)), url("./assets/back-2.png");
     background-size: 100%;
     word-wrap: break-word;
   }
